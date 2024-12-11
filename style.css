@@ -1,0 +1,73 @@
+*{
+    background-color: #002B56;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo_imagem{
+    width: 80px;
+    height: 80px;
+}
+
+
+header{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_site li{
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.botao_resume{
+    background-color: none;
+    border-radius: 5px;
+    padding: 8px;
+    border-color: #08DECA;
+    color: #08DECA;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    display: inline-block;
+}
+
+#cabecalho{
+    padding-top: 80px;
+    padding-left: 150px;
+}
+
+.apresentacao {
+    font-family:"Open Sans", sans-serif;
+    overflow-wrap: normal;
+    text-align: left;
+    color: #08DECA;
+    font-weight: 700;
+    padding-bottom: 150px;
+}
+
+h1{
+    font-family: "Roboto Mono", monospace;
+    padding-bottom: 50px;
+    padding-top: 35px;
+}
+
+.Texto_apresentacao{
+    font-family: "Roboto Mono", monospace;
+    padding-right: 500px;
+    padding-bottom: 100px;
+}
+
+.botao_projetos{
+    background-color: none;
+    border-radius: 5px;
+    padding: 8px;
+    border-color: #08DECA;
+    color: #08DECA;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+}
+

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "lato", sans-serif;
+}
+
+h1, h2{
+    font-weight: 800;
+}
+
+a{
+    font-weight: 400;
+}
+
+
+
+/* Cabecalho menu site */
+
+#menu-site{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#logo-site img{
+    width: 100px;   
+}
+
+#menu ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+
+#menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#161616;
+}
+
+#menu a:hover{
+    color: #5e39ee;
+}
+
+#redes-sociais img{
+    width: 20px;
+    margin-right: 15px;
+    opacity: 0.8;
+}
+
+#redes-sociais img:hover{
+    opacity: 1;
+}
+/* ____________________________________________________ */
+
+/* Slide bar */
+
+#slide #slide-bar{
+    width: 80%;
+    height: 350px;
+    padding: 3rem;
+    margin: 2rem auto;
+    background-image: url(../images/fundo\ bar/fundo.jpg);
+}
+
+#slide-bar h1, h2, p{
+    background: none;
+    margin-bottom: 12px;
+}
+
