@@ -65,18 +65,23 @@ main{
     padding: 0;
 }
 
+#slide-bar h1, h2{
+    margin-left: 1rem;
+}
+
 #slide-text p{
     margin-top: 25px;
     width: 450px;
+    margin-left: 1rem;
 }
 
-
-#slide-bar img{
-    width: 335px;
+#slide-img img{
+    width: 300px;
 }
 
 #form-slide{
     margin-top: 20px;
+    margin-left: 1rem;
 }
 
 #form-slide input{
@@ -135,5 +140,87 @@ main{
 
 #footer img{
     width: 200px;
+}
+
+/* PÁGINA DE CONTATO */
+
+#form-bar{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/fundo\ bar/fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+.formbox1{
+    text-align: start;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+}
+
+.formbox1 h1, hr{
+    margin-bottom: 2rem;
+    width: 300px;
+}
+
+.texto-contato img{
+    margin: 5px 25px;
+}
+
+.texto-contato a{
+    text-decoration: none;
+    color: #0f1221;
+}
+
+.texto-contato{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#form-bar form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-bar textarea{
+    margin: 2rem 0;
+    height: 120px;
+    border-radius: 12px;
+}
+
+#form-bar input[type=text]{
+    width: 25rem;
+    border-radius: 12px;
+    height: 35px;
+    margin-bottom: 25px;
+    color: #5e39ee;
+    text-indent: 12px;
+}
+
+#form-bar input[type=email]{
+    width: 25rem;
+    border-radius: 12px;
+    height: 35px;
+    color:#5e39ee;
+    text-indent: 12px;
+}
+
+#form-bar input[type=submit]{
+    border-radius: 12px;
+    width: 8rem;
+    height: 25px;
+    text-align: center;
+    margin-left: 9rem;
+
+}
+
+.texto-contato img{
+    height: 20px;
 }
 
