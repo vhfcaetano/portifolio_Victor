@@ -131,15 +131,36 @@ main{
     margin-top: 5rem;
     height: 300px;
     background-color: #0f1221;
-    padding: 0 15rem;
+    padding: 0 5rem;
     color: #fff;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 100px;
 }
 
 #footer img{
     width: 200px;
+}
+
+#footer h1{
+    margin-bottom: 2rem;
+}
+
+.footer-text a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-text ul{
+    list-style: none;
+}
+
+.footer-text li{
+    margin-bottom: 5px;
+}
+
+.footer-text a:hover{
+    color: #5e39ee;
 }
 
 /* PÁGINA DE CONTATO */
@@ -220,7 +241,19 @@ main{
 
 }
 
+#form-bar input, textarea{
+    background: none;
+}
+
 .texto-contato img{
     height: 20px;
+}
+
+.linha{
+    height: 12rem;
+    width: 2px;
+    padding-top: 12px;
+    border: 1px solid #fff;
+    background-color: #fff;
 }
 
