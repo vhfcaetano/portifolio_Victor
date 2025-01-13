@@ -19,11 +19,10 @@
         <div id="menu">
           <ul>
             <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre Mim</a></li>
-            <li><a href="#">Experiência</a></li>
-            <li><a href="#">Portifólio</a></li>
-            <li><a href="#">Técnologias</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#about-me">Sobre Mim</a></li>
+            <li><a href="#portifolio">Portifólio</a></li>
+            <li><a href="#tecnologias">Técnologias</a></li>
+            <li><a href="#contact-us">Contato</a></li>
           </ul>
         </div>
         <button id="resume-download">Resume</button>
@@ -34,13 +33,15 @@
         <div id="hi-bar">
           <div id="hi-text">
             <h2>👋 Olá mundo, eu sou <strong>Victor Hugo</strong></h2>
-            <h2 id="dev-text">
+            <div id="dev-text">
+            <h2>
               Desenvolvedor Front End
               <img
                 src="images/risco_tinta-removebg-preview.png"
                 alt="risco de tinta"
               />
             </h2>
+          </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
               minima assumenda ipsam beatae praesentium harum sequi voluptatem,
@@ -72,11 +73,11 @@
       <section>
         <div id="about-me">
           <h1>Sobre Mim</h1>
-          <hr />
-          <div id="about-box">
-            <div id="about-cont">
-              <h2>3+</h2>
-              <p>Experiencia em anos</p>
+          <hr/>
+          <div id="about-title">
+            <div id="about-box-title">
+                <h2>3+</h2>
+                <p>Experiencia em anos</p>
             </div>
             <div id="about-text">
               <p>
@@ -85,39 +86,35 @@
                 tempore magnam aut, non odio vitae cum maxime dicta minus fugiat
                 ipsa excepturi!
               </p>
-              <a href="" id="project-email">victorhugofcaetano@gmail.com</a>
-
-              <div id="about-box">
-                <div class="box">
-                  <img src="images/social/design.svg" alt="" />
-                  <h2>Designer</h2>
-                  <p>
+              <p><a href="#">victorhugofcaetano@gmail.com</a></p>  
+                <div id="about-box">
+                  <div class="box">
+                      <img src="images/social/design.svg" alt="" />
+                    <h2>Designer</h2>
+                    <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
                     dolor repellat similique earum quae quas fuga laboriosam
-                    officia. Nam minima hic similique nesciunt debitis maxime
-                    est quisquam ipsam optio quia?
-                  </p>
+                    officia. Nam minima hic similique nesciunt
+                    </p>
                 </div>
                 <div class="box">
-                  <img src="images/social/code.svg" alt="" />
-                  <h2>Programador</h2>
-                  <p>
+                    <img src="images/social/code.svg" alt="" />
+                    <h2>Programador</h2>
+                    <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
                     dolor repellat similique earum quae quas fuga laboriosam
-                    officia. Nam minima hic similique nesciunt debitis maxime
-                    est quisquam ipsam optio quia?
-                  </p>
+                    officia. Nam minima hic similique nesciunt
+                    </p>
                 </div>
                 <div class="box">
-                  <img src="images/social/support.svg" alt="" />
-                  <h2>Suporte</h2>
-                  <p>
+                    <img src="images/social/support.svg" alt="" />
+                    <h2>Suporte</h2>
+                    <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
                     dolor repellat similique earum quae quas fuga laboriosam
-                    officia. Nam minima hic similique nesciunt debitis maxime
-                    est quisquam ipsam optio quia?
-                  </p>
-                </div>
+                    officia. Nam minima hic similique nesciunt
+                    </p>
+                </div>    
               </div>
             </div>
           </div>
@@ -134,61 +131,27 @@
             culpa id ex.
           </p>
           <nav>
-            <ul>
-              <li><a class="port-item-select" href="">Todos</a></li>
-              <li><a class="port-item" href="">Desginers</a></li>
-              <li><a class="port-item" href="">Javascript</a></li>
-              <li><a class="port-item" href="">Mobile</a></li>
-              <li><a class="port-item" href="">Web Sites</a></li>
-              <li><a class="port-item" href="">Web Apps</a></li>
-            </ul>
-          </nav>
-          <div id="projects-gallery">
-            <div class="gallery-1">
-              <figure>
-                <img
-                  src="images/galeria/foto1.png"
-                  class="gallery__img"
-                  alt="Image 1"
-                />
-              </figure>
+            <div id="menu-gallery">
+              <ul>
+                <li class="port-item-select"><a href="">Todos</a></li>
+                <li><a class="port-item" href="">Desginers</a></li>
+                <li><a class="port-item" href="">Javascript</a></li>
+                <li><a class="port-item" href="">Mobile</a></li>
+                <li><a class="port-item" href="">Web Sites</a></li>
+                <li><a class="port-item" href="">Web Apps</a></li>
+              </ul>
             </div>
-            <figure class="gallery-2">
-              <img
-                src="images/galeria/foto2.png"
-                class="gallery__img"
-                alt="Image 2"
-              />
-            </figure>
-            <figure class="gallery-3">
-              <img
-                src="images/galeria/foto3.png"
-                class="gallery__img"
-                alt="Image 3"
-              />
-            </figure>
-            <figure class="gallery-4">
-              <img
-                src="images/galeria/foto4.png"
-                class="gallery__img"
-                alt="Image 4"
-              />
-            </figure>
-            <figure class="gallery-5">
-              <img
-                src="images/galeria/foto5.png"
-                class="gallery__img"
-                alt="Image 5"
-              />
-            </figure>
-            <figure class="gallery-6">
-              <img
-                src="images/galeria/foto6.png"
-                class="gallery__img"
-                alt="Image 6"
-              />
-            </figure>
-          </div>
+          </nav>
+            <div id="gallery">
+              <ul>
+                <li><a href=""><img src="images/galeria/foto1.png" alt="Foto 1"></a></li>
+                <li><a href=""><img src="images/galeria/foto2.png" alt="Foto 2"></a></li>
+                <li><a href=""><img src="images/galeria/foto3.png" alt="Foto 3"></a></li>
+                <li><a href=""><img src="images/galeria/foto4.png" alt="Foto 4"></a></li>
+                <li><a href=""><img src="images/galeria/foto5.png" alt="Foto 5"></a></li>
+                <li><a href=""><img src="images/galeria/foto6.png" alt="Foto 6"></a></li>
+              </ul>
+            </div>
           <!-- pesquisar sobre galeria de fotos com links -->
         </div>
       </section>
@@ -204,7 +167,6 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
                     dolor repellat similique earum quae quas fuga laboriosam
                     officia. Nam minima hic similique nesciunt debitis maxime
-                    est quisquam ipsam optio quia?
                   </p>
                 </div>
                 <div class="tec2">
@@ -214,7 +176,6 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
                     dolor repellat similique earum quae quas fuga laboriosam
                     officia. Nam minima hic similique nesciunt debitis maxime
-                    est quisquam ipsam optio quia?
                   </p>
                 </div>
                 <div class="tec3">
@@ -224,7 +185,6 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
                     dolor repellat similique earum quae quas fuga laboriosam
                     officia. Nam minima hic similique nesciunt debitis maxime
-                    est quisquam ipsam optio quia?
                   </p>
                 </div>
                 <div class="tec4">
@@ -234,7 +194,6 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
                       dolor repellat similique earum quae quas fuga laboriosam
                       officia. Nam minima hic similique nesciunt debitis maxime
-                      est quisquam ipsam optio quia?
                     </p>
                   </div>
         </div>
@@ -253,37 +212,38 @@
                         <img src="images/contact/email.svg" alt="">
                     </div>
                     <div class="contact-label">
-                        <h3>me mande um email</h3>
-                        <a href="">victorhugofcaetano@gmail.com</a>
+                        <h3>Me mande um email</h3>
+                        <p><a href="#">victorhugofcaetano@gmail.com</a></p>
                     </div>    
                 </div>
                 <div class="contact-link-2">
-                    <div class="contact-image">
-                        <img src="images/contact/whatsapp.svg" alt="">
-                    </div>
-                    <div class="contact-label">
-                        <h3>Ou me mande um Zap</h3>
-                        <a href="">(61) 99999-9999</a>
-                    </div>    
-                </div>
+                  <div class="contact-image">
+                      <img src="images/contact/whatsapp.svg" alt="">
+                  </div>
+                  <div class="contact-label">
+                      <h3>Uo mande um Zap</h3>
+                      <p><a href="#">(XX) XXXXX-XXXX</a></p>
+                  </div>
+                </div>    
                 <div class="contact-link-3">
-                    <div class="contact-image">
-                        <img src="images/contact/maps.svg" alt="">
-                    </div>
-                    <div class="contact-label">
-                        <h3>Ou me faça uma visita</h3>
-                        <a href="">Link ou Api google maps</a>
-                    </div>    
+                  <div class="contact-image">
+                    <img src="images/contact/maps.svg" alt="">
+                  </div>
+                  <div class="contact-label">
+                    <h3>Ou venha me visitar</h3>
+                    <p><a href="#">Localização ou mapa do maps</a></p>
+                  </div> 
+                </div>   
+                <div id="follow-me-2">
+                  <p>Siga-me</p>
+                  <a href="#"><img src="images/social/instagram.svg" alt="Instagram logo" /></a>
+                  <a href="#"><img src="images/social/github.svg" alt="Github" /></a>
+                  <a href="#"><img src="images/social/linkedin.svg" alt="Linkedin" /></a>
                 </div>
-              <div id="follow-me-2">
-                <p>Siga-me</p>
-                <a href="#"><img src="images/social/instagram.svg" alt="Instagram logo" /></a>
-                <a href="#"><img src="images/social/github.svg" alt="Github" /></a>
-                <a href="#"><img src="images/social/linkedin.svg" alt="Linkedin" /></a>
-              </div>
             </div>
           <div id="contact-form">
             <form>
+              <div id="form-block1">
                 <div class="input label">
                     <p>Seu Primeiro Nome*</p>
                     <input type="text" name="name" placeholder="Degite o seu nome" />
@@ -292,6 +252,8 @@
                     <p>Digite seu sobrenome*</p>
                     <input type="text"name="subname"placeholder="Degite o seu sobrenome"/>
                 </div>
+              </div>
+              <div id="form-block2">
                 <div class="input label">
                     <p>Digite seu email*</p>
                     <input type="email" name="email" placeholder="@dominio.com" />
@@ -300,6 +262,7 @@
                     <p>Digite o seu telefone*</p>
                     <input type="tel" name="tel" placeholder="(XX) XXXXX-XXXX" />
                 </div> 
+              </div>
             </form>
             <div id="textarea">     
                 <p>Sua Mensagem</p>
@@ -328,9 +291,9 @@
         </p>
         <div id="follow-me-footer">
           <p>Siga-me</p>
-          <a href="#"><img src="" alt="Instagram logo" /></a>
-          <a href="#"><img src="" alt="Github" /></a>
-          <a href="#"><img src="" alt="Linkedin" /></a>
+          <a href="#"><img src="images/social/instagram.svg" alt="Instagram logo" /></a>
+          <a href="#"><img src="images/social/github.svg" alt="Github" /></a>
+          <a href="#"><img src="images/social/linkedin.svg" alt="Linkedin" /></a>
         </div>
         <hr />
         <div id="footer-text">
@@ -338,11 +301,11 @@
           <div id="menu">
             <ul>
               <li><a href="#">Inicio</a></li>
-              <li><a href="#">Sobre Mim</a></li>
-              <li><a href="#">Experiência</a></li>
-              <li><a href="#">Portifólio</a></li>
-              <li><a href="#">Técnologias</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><a href="#about-me">Sobre Mim</a></li>
+              <li><a href="#tecnologias">Experiência</a></li>
+              <li><a href="#portifolio">Portifólio</a></li>
+              <li><a href="#tecnologias">Técnologias</a></li>
+              <li><a href="#contact-us">Contato</a></li>
             </ul>
           </div>
         </div>
