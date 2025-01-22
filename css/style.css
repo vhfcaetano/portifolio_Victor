@@ -41,7 +41,7 @@ nav #resume-download{
 }
 
 nav #resume-download:hover{
-    transition: .5s;
+    transition: .2s;
     background-color: #fff;
     color: #5933d3;
 }
