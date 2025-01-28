@@ -227,15 +227,18 @@ nav img{
     padding: 0 5rem;
 }
 
-#menu-gallery ul{
+.menu-gallery ul{
     display: flex;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-.port-item-select a{
+.select {
     background-color: #5933d3;
     padding: 10px;
     border-radius: 12px;
+    animation: ease-in-out(3s);
 }
 
 #portifolio h1{
